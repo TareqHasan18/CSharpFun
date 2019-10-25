@@ -16,6 +16,7 @@ namespace CSharpFun
             Vehicle vehicle = new Vehicle();
             vehicle.Start();
             vehicle.Stop();
+            vehicle.mileage();
         }
     }
 }
