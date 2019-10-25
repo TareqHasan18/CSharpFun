@@ -12,6 +12,10 @@ namespace CSharpFun
         {
 
             Console.WriteLine("This is all about C Sharp");
+
+            Vehicle vehicle = new Vehicle();
+            vehicle.Start();
+            vehicle.Stop();
         }
     }
 }
