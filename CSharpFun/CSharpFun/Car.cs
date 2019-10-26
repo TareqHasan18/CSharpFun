@@ -24,6 +24,9 @@ namespace CSharpFun
             Console.WriteLine("Car average Gas Per Mile is: " +(GasPerMile1 + GasPerMile2 + GasPerMile3)/3);
         }
 
+
+        //Runtime Polymorphism (Late Binding or Overriding or dynamic binding) 
+        //Same method exists in parent(Vehicle) class as virtual class.
         public override void Luxary()
         {
             Console.WriteLine("Car must be Luxary");

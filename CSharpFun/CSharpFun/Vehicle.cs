@@ -34,6 +34,9 @@ namespace CSharpFun
             }
         }
 
+
+        //Runtime Polymorphism (Late Binding or Overriding or dynamic binding) 
+        //Same method exists in parent(Vehicle) class as override class.
         public virtual void Luxary()
         {
             Console.WriteLine("Vehicle should be luxary");
