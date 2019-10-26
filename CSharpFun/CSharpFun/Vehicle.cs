@@ -33,5 +33,10 @@ namespace CSharpFun
                 Console.WriteLine("This car does not have good mileage");
             }
         }
+
+        public virtual void Luxary()
+        {
+            Console.WriteLine("Vehicle should be luxary");
+        }
     }
 }

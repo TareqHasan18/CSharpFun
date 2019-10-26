@@ -17,6 +17,17 @@ namespace CSharpFun
             vehicle.Start();
             vehicle.Stop();
             vehicle.mileage();
+
+
+            Car car = new Car();
+            car.Start();
+            car.basic(30, 40);
+            car.basic(30, 40, 50);
+            car.Luxary();
+            //vehicle.Luxary();
+
+            Vehicle vehicle1 = new Car();
+            vehicle1.Luxary();
         }
     }
 }
